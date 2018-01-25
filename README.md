@@ -36,7 +36,7 @@ usage: SaveSQL2HDFS.py
 ## Notes
 
 ### Kerberos
-The Kerberos user passed to WEBHDFS is the current Windows user (for a Windows Server), or whatever is in the ``klist`` for a Linux server. It's up to the user to make sure a Kerberos ticket is available. This should *just work* on Windows and has been successfully deployed to SEGVML2203 - the Informatica DEV server, where is logs in as ``imat333``.
+The Kerberos user passed to WEBHDFS is the current Windows user (for a Windows Server), or whatever is in the ``klist`` for a Linux server. It's up to the user to make sure a Kerberos ticket is available. This should *just work* on Windows.
 
 ### Logging
 The program logs to the console and to a log file which can be found in the ``logs/`` directory underneath the directory the program has been deployed to.
